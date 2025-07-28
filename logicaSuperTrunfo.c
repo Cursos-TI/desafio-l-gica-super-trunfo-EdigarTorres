@@ -2,15 +2,15 @@
 
 // Estrutura que representa uma carta do Super Trunfo
 typedef struct {
-    char estado[30];
-    char codigo[10];
-    char nomeCidade[50];
-    int populacao;
-    float area;
-    float pib;
-    int pontosTuristicos;
-    float densidadePopulacional;
-    float pibPerCapita;
+    char estado[30]; // Estado da carta
+    char codigo[10]; // Código da carta
+    char nomeCidade[50]; // Nome da cidade
+    int populacao; // População da cidade
+    float area; // Área da cidade em km²
+    float pib; // PIB da cidade em reais
+    int pontosTuristicos; // Número de pontos turísticos    
+    float densidadePopulacional; // Densidade populacional
+    float pibPerCapita; // PIB per capita
 } Carta;
 
 // Função para calcular a densidade populacional
